@@ -17,7 +17,7 @@ void draw(){
   ellipse(cirlX, cirlY, cirlW, cirlH);  //The Ball
   if (mousePressed == true){
     delay(300);
-    background(random(0,255), random(0, 255));
+    background(random(0,255), random(0, 255), random(0,255));
     if(mouseX == cirlX){
       if(mouseY == cirlY){
         cirlX = random(0,600);
